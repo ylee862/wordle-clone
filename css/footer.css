@@ -1,0 +1,42 @@
+/*CSS file for the footer content in index.html file*/
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 20px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  gap: 4px;
+}
+
+.keyboard-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(211, 211, 211, 0.725);
+  border: none;
+  width: 40px;
+  height: 55px;
+
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.keyboard-column-wide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(211, 211, 211, 0.725);
+  border: none;
+  width: 65px;
+  height: 55px;
+  font-weight: bold;
+  border-radius: 8px;
+}
